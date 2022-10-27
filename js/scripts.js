@@ -3,8 +3,15 @@ const currentOperationText = document.querySelector("#current-operation")
 const buttons = document.querySelectorAll("#buttons-container button")
  
 class Calculator {
-    
+    constructor(previousOperationText, currentOperationText) {
+        this.previousOperationText = previousOperationText;
+        this.currentOperationText = currentOperationText;
+        this.currentOperation = ""
+    }
+//manda os digitos para o visor    
+addDigit(digit){
 
+}
 }
 //value recebe os valores texto do htmls
 buttons.forEach((btn) => {
